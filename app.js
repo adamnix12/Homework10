@@ -1,8 +1,8 @@
 const pokemon = [
-    { name: "Charmander", type: "Fire", maxHp: 100, attack: 15 },
-    { name: "Squirtle", type: "Water", maxHp: 110, attack: 12 },
-    { name: "Pikachu", type: "Electric", maxHp: 95, attack: 18 },
-    { name: "Bulbasaur", type: "Grass", maxHp: 105, attack: 13 }
+    { name: "Charmander", type: "fire", maxHp: 100, attack: 15 },
+    { name: "Squirtle", type: "water", maxHp: 110, attack: 12 },
+    { name: "Pikachu", type: "electric", maxHp: 95, attack: 18 },
+    { name: "Bulbasaur", type: "grass", maxHp: 105, attack: 13 }
 ];
 
 const total = pokemon.reduce((sum, itm) => {
